@@ -1,0 +1,21 @@
+#summary One-sentence summary of this page.
+#labels Featured,Phase-Deploy,Phase-Support
+
+= Introduction =
+
+howto use live-android
+
+
+= Details =
+
+1 download androidv0.1.rar,decompression.you can get androidv0.1.iso.
+
+2 you can use androidv0.1.iso in vmware or virtual box directly.certainly,you can burn a cd for a real computer.
+
+3 boot you PC with androidv0.1.iso.you can see the android GUI,enjoy!
+
+= tips: =
+
+use alt+F1 and alt+F7 switch GUI and console.
+
+i have add busybox in command line,you can do everything in console. 
