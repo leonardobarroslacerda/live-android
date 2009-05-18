@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary LiveAndroid HOWTO
 #labels Featured,Phase-Deploy,Phase-Support
 
 = Introduction =
@@ -17,4 +17,5 @@ HOWTO use live-android
 = Tips =
 
 use alt+F1 or alt+F7 to switch GUI and console.
+
 busybox added, you can do everything in console. 
