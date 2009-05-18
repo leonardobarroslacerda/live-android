@@ -1,0 +1,23 @@
+#summary One-sentence summary of this page.
+#labels Phase-Deploy,Phase-QA,Phase-Support
+
+= Introduction =
+
+network of live-android need config in console.
+
+
+= Detail Commands =
+==IP:==
+ifconfig eth0 _yourip_ netmask _yourip's mask_
+
+== GateWay: ==
+route add default gw _yourgateway_ dev eth0
+
+==DNS:==
+setprop net.eth0.dns1 _yourDNS_
+==Proxy Server:==
+Sorry,i find a way for config proxy
+http://www.cnblogs.com/DesignPatterns/archive/2008/10/10/1307898.html.<br>
+But it only be in effect when you reboot your machine.Our livecd only save
+data in memory,after rebooting,all go back to initial setting.<br>
+So live-android can't set proxy now.
