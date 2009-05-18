@@ -3,19 +3,18 @@
 
 = Introduction =
 
-howto use live-android
+HOWTO use live-android
 
 
 = Details =
 
-1 download androidv0.1.rar,decompression.you can get androidv0.1.iso.
+1. Download androidv0.1.rar/androidv0.2.rar/androidv0.1.rar, unzip it. you'll get androidv0.1.iso
 
-2 you can use androidv0.1.iso in vmware or virtual box directly.certainly,you can burn a cd for a real computer.
+2. use androidv0.1.iso in vmware or virtualbox to your taste. of cource, you can burn it as a LiveCD.
 
-3 boot you PC with androidv0.1.iso.you can see the android GUI,enjoy!
+3. boot and enjoy!
 
-= tips: =
+= Tips =
 
-use alt+F1 and alt+F7 switch GUI and console.
-
-i have add busybox in command line,you can do everything in console. 
+use alt+F1 or alt+F7 to switch GUI and console.
+busybox added, you can do everything in console. 
