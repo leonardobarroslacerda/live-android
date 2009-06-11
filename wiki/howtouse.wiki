@@ -8,7 +8,7 @@ HOWTO use live-android
 
 = Details =
 
-1. Download androidv0.1.rar/androidv0.2.rar/androidv0.3.rar, unzip it. you'll get androidv0.1.iso
+1. Download androidv0.1.part1.rar/androidv0.1.part2.rar/androidv0.1.part3.rar, unzip it. you'll get androidv0.1.iso
 
 2. use androidv0.1.iso in vmware or virtualbox to your taste. of cource, you can burn it as a LiveCD.
 
