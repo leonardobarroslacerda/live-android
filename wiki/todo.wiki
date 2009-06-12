@@ -1,0 +1,19 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+the next step is:
+
+
+= Details =
+
+  * let *mouse* and *keyboard* work
+  * let *SD card* work
+  * let *mp3 player* *movie player* work
+  * let *camera* work
+  * let *GSM* *3G* work
+
+We'll release new live-android CD in July 2009.
+
+thank you,
+zq & Why
