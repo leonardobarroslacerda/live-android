@@ -2,9 +2,9 @@
 
 = Introduction =
 
-follow us at *http://twitter.com/liveandroid*
+follow: http://twitter.com/liveandroid
 
-or mailto: _liveandroid@gmail.com_
+mailto: liveandroid@gmail.com
 
 
 = Details =
