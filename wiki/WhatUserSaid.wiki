@@ -1,8 +1,9 @@
-#This page is user try&feedback collection.
+#This page is a user try&feedback collection.
 
 = Introduction =
 
 follow us at *http://twitter.com/liveandroid*
+
 or mailto: _liveandroid@gmail.com_
 
 
@@ -30,4 +31,3 @@ http://androidzone.cz/images/stories/iso5.png
 http://androidzone.cz/images/stories/iso6.png
 http://androidzone.cz/images/stories/iso7.png
 http://androidzone.cz/images/stories/iso8.png
-
