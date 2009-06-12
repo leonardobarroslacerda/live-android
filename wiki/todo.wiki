@@ -1,11 +1,11 @@
-#summary One-sentence summary of this page.
+#
 
 = Introduction =
 
-the next step is:
+We'll release new live-android CD in July 2009.
 
 
-= Details =
+= TODO =
 
   * let *mouse* and *keyboard* work
   * let *SD card* work
@@ -13,7 +13,6 @@ the next step is:
   * let *camera* work
   * let *GSM* *3G* work
 
-We'll release new live-android CD in July 2009.
 
 thank you,
 zq & Why
