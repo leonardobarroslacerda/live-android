@@ -2,6 +2,8 @@
 
 We'll release new live-android CD in July 2009.
 
+please follow us and RT, http://twitter.com/liveandroid
+
 
 = TODO =
 
