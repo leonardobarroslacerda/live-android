@@ -1,5 +1,3 @@
-#
-
 = Introduction =
 
 We'll release new live-android CD in July 2009.
@@ -15,4 +13,5 @@ We'll release new live-android CD in July 2009.
 
 
 thank you,
+
 zq & Why
