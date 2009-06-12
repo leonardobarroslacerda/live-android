@@ -1,6 +1,8 @@
 #summary LiveAndroid HOWTO
 #labels Featured,Phase-Deploy,Phase-Support
 
+please follow us and RT, http://twitter.com/liveandroid
+
 = Introduction =
 
 HOWTO use live-android
