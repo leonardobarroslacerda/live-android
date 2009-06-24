@@ -40,3 +40,22 @@ http://androidzone.cz/images/stories/iso5.png
 http://androidzone.cz/images/stories/iso6.png
 http://androidzone.cz/images/stories/iso7.png
 http://androidzone.cz/images/stories/iso8.png
+
+
+
+----- Thanks to @cbowley603 -------------------------------------------------------------
+
+http://forum.xda-developers.com/showthread.php?p=3967480
+running on asrpireone with ubuntu netbook remix in virtual box ose
+
+
+*Screenshot*
+
+http://forum.xda-developers.com/attachment.php?attachmentid=196289
+http://forum.xda-developers.com/attachment.php?attachmentid=196290
+http://forum.xda-developers.com/attachment.php?attachmentid=196291
+http://forum.xda-developers.com/attachment.php?attachmentid=196292
+http://forum.xda-developers.com/attachment.php?attachmentid=196293
+http://forum.xda-developers.com/attachment.php?attachmentid=196294
+http://forum.xda-developers.com/attachment.php?attachmentid=196295
+http://forum.xda-developers.com/attachment.php?attachmentid=196296
