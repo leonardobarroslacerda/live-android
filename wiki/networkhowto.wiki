@@ -10,11 +10,20 @@ config networking in LiveAndroid via console
 ==IP==
 ifconfig eth0 _yourip_ netmask _yourip's mask_
 
+ifconfig eth0 192.168.1.10 netmask 255.255.255.0
+
+
 ==Gateway==
 route add default gw _yourgateway_ dev eth0
 
+route ad default gw 192.168.1.1 dev eth0
+
+
 ==DNS==
 setprop net.eth0.dns1 _yourDNS_
+
+setprop net.eth0.dns1 208.67.222.222
+
 
 ==Proxy Server==
 Sorry, I find a way to config proxy
