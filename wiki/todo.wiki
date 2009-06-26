@@ -7,8 +7,15 @@ twitter: http://twitter.com/liveandroid
 
 = TODO =
 
-  * let *mouse* and *keyboard* work
-  * let *SD card* work
-  * let *mp3 player* *movie player* work
-  * let *camera* work
-  * let *GSM* *3G* work
+  let the following works!
+
+  * Power Suspend/resume
+  * Mouse cursor
+  * Keyboard
+  * Ethernet
+  * Wifi
+  * Bluetooth
+  * Audio
+  * SD card
+  * Camera
+  * *GSM* *3G* ?
