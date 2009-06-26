@@ -2,7 +2,7 @@
 
 We'll release new live-android CD in July 2009.
 
-please follow us and RT, http://twitter.com/liveandroid
+twitter: http://twitter.com/liveandroid
 
 
 = TODO =
@@ -12,8 +12,3 @@ please follow us and RT, http://twitter.com/liveandroid
   * let *mp3 player* *movie player* work
   * let *camera* work
   * let *GSM* *3G* work
-
-
-thank you,
-
-zq & Why
