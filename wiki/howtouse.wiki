@@ -14,7 +14,9 @@ HOWTO use live-android
 
 Now, you can download liveandroidv0.1.iso directly from rapidshare -> [http://rapidshare.com/files/249259326/liveandroidv0.1.iso]
 
-or [http://g-android.com/liveandroid/androidv0.1.iso] <- hosting in Vietnam
+thanks mirror:
+[http://g-android.com/liveandroid/androidv0.1.iso] <- hosting in Vietnam
+[http://tomcode.com/inside/live-android/androidv0.1.iso]
 
 2. use androidv0.1.iso in vmware or virtualbox to your taste. of cource, you can burn it as a LiveCD.
 
