@@ -8,9 +8,9 @@ twitter: http://twitter.com/liveandroid
   let the following works!
 
   * Power Suspend/resume
-  * Mouse cursor [works]
-  * Keyboard [works]
-  * Ethernet [works]
+  * Mouse cursor (works)
+  * Keyboard (works)
+  * Ethernet (works)
   * Wifi
   * Bluetooth
   * Audio
