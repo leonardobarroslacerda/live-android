@@ -1,7 +1,5 @@
 = Introduction =
 
-We'll release new live-android CD in July 2009.
-
 twitter: http://twitter.com/liveandroid
 
 
@@ -10,9 +8,9 @@ twitter: http://twitter.com/liveandroid
   let the following works!
 
   * Power Suspend/resume
-  * Mouse cursor
-  * Keyboard
-  * Ethernet
+  * Mouse cursor [works]
+  * Keyboard [works]
+  * Ethernet [works]
   * Wifi
   * Bluetooth
   * Audio
