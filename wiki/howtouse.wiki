@@ -27,7 +27,15 @@ thanks mirror:
 
 *liveandroid v0.2*
 
-When you download, please check md5sum. *MD5: 03852bce8cb26aba21d147153c1fb120*
+1. Download liveandroidv0.2.iso.001/liveandroidv0.2.iso.002, use HJSplit(http://www.freebyte.com/hjsplit/ or http://www.freebytesoftware.com/download/hjsplit.zip) join it.
+
+2. Check md5sum via http://www.pc-tools.net/win32/md5sums/ or http://www.pc-tools.net/files/win32/freeware/md5sums-1.2.zip
+
+*liveandroidv0.2.iso MD5: 03852bce8cb26aba21d147153c1fb120*
+
+3. use liveandroidv0.2.iso in vmware or virtualbox to your taste. of cource, you can burn it as a LiveCD.
+
+4. boot and enjoy!
 
 
 = Tips =
