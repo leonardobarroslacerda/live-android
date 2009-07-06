@@ -1,14 +1,14 @@
 #summary LiveAndroid HOWTO
 #labels Featured,Phase-Deploy,Phase-Support
 
-please follow us and RT, http://twitter.com/liveandroid
+please follow & RT, http://twitter.com/liveandroid
 
 = Introduction =
 
 HOWTO use live-android
 
 
-= Details =
+= Download & Boot =
 
 *liveandroid v0.1*
 
@@ -43,3 +43,24 @@ thanks mirror:
 use alt+F1 or alt+F7 to switch GUI and console.
 
 busybox added, you can do everything in console. 
+
+
+= Networking =
+
+liveandroidv0.2.iso support DHCP
+
+*IP*
+ifconfig eth0 _yourip_ netmask _yourip's mask_
+
+e.g. ifconfig eth0 192.168.1.10 netmask 255.255.255.0
+
+*Gateway*
+route add default gw _yourgateway_ dev eth0
+
+e.g. route ad default gw 192.168.1.1 dev eth0
+
+
+*DNS*
+setprop net.eth0.dns1 _yourDNS_
+
+e.g. setprop net.eth0.dns1 208.67.222.222
