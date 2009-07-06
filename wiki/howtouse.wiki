@@ -27,6 +27,9 @@ thanks mirror:
 
 *liveandroid v0.2*
 
+When you download, please check md5sum. *MD5: 03852bce8cb26aba21d147153c1fb120*
+
+
 = Tips =
 
 use alt+F1 or alt+F7 to switch GUI and console.
