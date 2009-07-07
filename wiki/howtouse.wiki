@@ -60,7 +60,7 @@ e.g. ifconfig eth0 192.168.1.10 netmask 255.255.255.0
 
 route add default gw _yourgateway_ dev eth0
 
-e.g. route ad default gw 192.168.1.1 dev eth0
+e.g. route add default gw 192.168.1.1 dev eth0
 
 
 *DNS*
