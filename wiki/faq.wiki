@@ -5,11 +5,7 @@
 ------
 @stewart.midwinter
 
-To join the two v.0.2 liveandroid .ISO files, you can use the COPY command in a command-
-
-prompt window: (similar commands exist for Mac OS X and Linux) COPY /B 
-
-liveandroidv0.2.iso.001 +liveandroidv0.2.iso.002 liveandroidv0.2.iso
+To join the two v.0.2 liveandroid .ISO files, you can use the COPY command in a command-prompt window: (similar commands exist for Mac OS X and Linux) COPY /B liveandroidv0.2.iso.001 +liveandroidv0.2.iso.002 liveandroidv0.2.iso
 
 @liveandroid
 
