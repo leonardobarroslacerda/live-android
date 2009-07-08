@@ -35,9 +35,9 @@ See some photos here: http://twitpic.com/photos/liveandroid
 
 Download liveandroidv0.2.iso.001 and liveandroidv0.2.iso.002 from http://code.google.com/p/live-android/downloads/list 
 
-* windows: use HJSplit (http://www.freebyte.com/hjsplit/ or http://www.freebytesoftware.com/download/hjsplit.zip) to join it. 
+windows: use HJSplit (http://www.freebyte.com/hjsplit/ or http://www.freebytesoftware.com/download/hjsplit.zip) to join it. 
 
-* linux: cat liveandroidv0.2.iso.001 liveandroidv0.2.iso.002 > liveandroidv0.2.iso
+linux: cat liveandroidv0.2.iso.001 liveandroidv0.2.iso.002 > liveandroidv0.2.iso
 
 ramdisk/kernel/init.patch/init.rc is open for liveandroid addicts and developers.
 
