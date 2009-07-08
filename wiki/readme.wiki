@@ -43,6 +43,7 @@ ramdisk/kernel/init.patch/init.rc is open for liveandroid addicts and developers
 
 you also can download ISO image directly from mirror, http://files.togusa.ru/liveandroidv0.2.iso (via @iTogusa)
 http://rapidshare.com/files/252997004/liveandroidv0.2.iso (via @androidworldit)
+http://g-android.com/component/option,com_phocadownload/Itemid,55/id,6/view,category/ (via @kekin)
 
 or download torrent here http://live-android.googlecode.com/files/liveandroidv0.2.iso%20%5Bmininova%5D.torrent
 
