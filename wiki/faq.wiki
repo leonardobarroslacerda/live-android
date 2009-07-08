@@ -14,9 +14,7 @@ thanks!
 ------
 @spartango
 
-Plz opensource method details? It be good to share build specifics so that things could be 
-
-added & improved by others 
+Plz opensource method details? It be good to share build specifics so that things could be added & improved by others 
 
 @liveandroid
 
@@ -25,19 +23,7 @@ we'll publish the details on v1.0
 ------
 @stewart.midwinter
 
-Tried again in a Parallels virtual machine... When I run ifconfig specifying eth0 (sorry, 
-
-not ipconfig!), I get an error message: ifconfig: SIOCSIFADDR no such device Looking in 
-
-/system/etc/dhcpcd/dhcpcd.conf shows only a tiwlan0 interface. If I run ifconfig with this 
-
-interface, I get the same error message. Looking the livedroid CD mentioned on the downloads 
-
-page, the developer there does have networking working. If I type 'ifconfig' I get a 
-
-response showing the eth0 interface. notice that in his boot sequence he runs a netcfg 
-
-command. Hope this helps.
+Tried again in a Parallels virtual machine... When I run ifconfig specifying eth0 (sorry, not ipconfig!), I get an error message: ifconfig: SIOCSIFADDR no such device Looking in /system/etc/dhcpcd/dhcpcd.conf shows only a tiwlan0 interface. If I run ifconfig with this interface, I get the same error message. Looking the livedroid CD mentioned on the downloads page, the developer there does have networking working. If I type 'ifconfig' I get a response showing the eth0 interface. notice that in his boot sequence he runs a netcfg command. Hope this helps.
 
 @dzo...@rambler.ru
 
@@ -48,9 +34,7 @@ command. Hope this helps.
 ------
 @recluze
 
-I can't find the shortcut key to "Menu". Whenever an application comes up, there's no way of 
-
-exiting it.
+I can't find the shortcut key to "Menu". Whenever an application comes up, there's no way of exiting it.
 
 @liveandroid
 
@@ -63,9 +47,7 @@ Hi, it can not boot on VirtualBox 3 on Debian testing AMD64
 
 @MurzNN
 
-It boots on Ubuntu Jaunty AMD64 with Virtualbox 3.0 normally, but for networking you need to 
-
-select adapter PCnet-FAST III instead of default.
+It boots on Ubuntu Jaunty AMD64 with Virtualbox 3.0 normally, but for networking you need to select adapter PCnet-FAST III instead of default.
 
 ------
 @mitcoes
@@ -103,6 +85,4 @@ Where is Android Market application? How I can install new applications?
 
 @Apothh
 
-I think, this is the android 1.5 sdk version, and this is not containing the market 
-
-applicatin. But you can use google to find .apk files.
+I think, this is the android 1.5 sdk version, and this is not containing the market applicatin. But you can use google to find .apk files.
