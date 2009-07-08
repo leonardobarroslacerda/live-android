@@ -86,3 +86,12 @@ Where is Android Market application? How I can install new applications?
 @Apothh
 
 I think, this is the android 1.5 sdk version, and this is not containing the market applicatin. But you can use google to find .apk files.
+
+-----
+@ryoku_cha
+
+Failed to create a bootable @liveandroid USB-Stick. Tried with different Tools including UNetbootin, liveusb-creator and iso2usb
+
+@liveandroid
+
+we are fixing it now...
