@@ -1,19 +1,19 @@
 = Introduction =
 
-twitter: http://twitter.com/liveandroid
+please follow us: http://twitter.com/liveandroid
 
 
 = TODO =
 
-  let the following works!
+===v0.3===
 
-  * Power Suspend/resume
-  * Mouse cursor (works)
-  * Keyboard (works)
-  * Ethernet (works)
-  * Wifi
-  * Bluetooth
-  * Audio
-  * SD card
-  * Camera
-  * *GSM* *3G* ?
+* liveUSB
+* SD card
+* Audio
+* support more net card
+* easy netconfig
+* wifi (akl5k, tl9k)
+* change HOMW/MENU key on Mac
+* support marketplace
+* integrate debian with android ?
+* a hd-install version?
