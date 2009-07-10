@@ -13,13 +13,13 @@ please follow us: http://twitter.com/liveandroid
 
   * Audio
 
-  * support more net card
+  * support more net cards
 
   * easy netconfig
 
   * wifi (akl5k, tl9k)
 
-  * change HOMW/MENU key on Mac
+  * change HOME/MENU key on Mac
 
   * support marketplace
 
