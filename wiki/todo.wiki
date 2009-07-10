@@ -7,22 +7,22 @@ please follow us: http://twitter.com/liveandroid
 
 ===v0.3===
 
-* liveUSB
+  * liveUSB
 
-* SD card
+  * SD card
 
-* Audio
+  * Audio
 
-* support more net card
+  * support more net card
 
-* easy netconfig
+  * easy netconfig
 
-* wifi (akl5k, tl9k)
+  * wifi (akl5k, tl9k)
 
-* change HOMW/MENU key on Mac
+  * change HOMW/MENU key on Mac
 
-* support marketplace
+  * support marketplace
 
-* integrate debian with android ?
+  * integrate debian with android (?)
 
-* a hd-install version?
+  * a hd-install version (?)
