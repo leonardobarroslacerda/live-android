@@ -49,6 +49,9 @@ use *alt+F1* or *alt+F7* to switch GUI and console.
 
 busybox added, you can do everything in console. 
 
+play with HOME Key and MENU key
+http://web5.twitpic.com/img/16550633-abc16511dbecf5489fe46b035aaa138c.4a56aeb7-full.png
+
 
 = Networking =
 
