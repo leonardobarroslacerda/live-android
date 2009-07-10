@@ -8,12 +8,21 @@ please follow us: http://twitter.com/liveandroid
 ===v0.3===
 
 * liveUSB
+
 * SD card
+
 * Audio
+
 * support more net card
+
 * easy netconfig
+
 * wifi (akl5k, tl9k)
+
 * change HOMW/MENU key on Mac
+
 * support marketplace
+
 * integrate debian with android ?
+
 * a hd-install version?
