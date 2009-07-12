@@ -1,0 +1,168 @@
+diff -uprBN /opt/new/newdownload/system/core/init/builtins.c initv1.5/builtins.c
+--- /opt/new/newdownload/system/core/init/builtins.c	2009-06-15 17:32:15.000000000 -0400
++++ initv1.5/builtins.c	2009-07-06 23:35:25.000000000 -0400
+@@ -36,6 +36,11 @@
+ #include "devices.h"
+ 
+ #include <private/android_filesystem_config.h>
++/*zqqa add*/
++#include <linux/loop.h>
++typedef struct loop_info64 bb_loop_info;
++#define BB_LOOP_SET_STATUS LOOP_SET_STATUS64
++#define BB_LOOP_GET_STATUS LOOP_GET_STATUS64
+ 
+ void add_environment(const char *name, const char *value);
+ 
+@@ -95,6 +100,66 @@ static int setkey(struct kbentry *kbe)
+     return ret;
+ }
+ 
++/* Returns 0 if mounted read-only, <0 for error.
++ */
++static int setloop(char *device, const char *file, unsigned long long offset)
++{
++	bb_loop_info loopinfo;
++	struct stat statbuf;
++	int dfd, ffd, mode, rc = -1;
++
++	/* Open the file. */
++	mode = O_RDONLY;
++	ffd = open(file, mode);
++	if (ffd < 0)
++	 return -errno;
++
++	/* Ran out of block devices, return failure.  */
++	if (stat(device, &statbuf) || !S_ISBLK(statbuf.st_mode)) {
++		return -errno;
++	 }
++	/* Open the sucker and check its loopiness.  */
++	dfd = open(device, mode);
++	if (dfd < 0)
++		return -errno;
++
++	rc = ioctl(dfd, BB_LOOP_GET_STATUS, &loopinfo);
++
++	/* If device is free, claim it.  */
++	if (rc && errno == ENXIO) {
++		memset(&loopinfo, 0, sizeof(loopinfo));
++		strncpy((char *)loopinfo.lo_file_name, file, LO_NAME_SIZE);
++		loopinfo.lo_offset = offset;
++		/* Associate free loop device with file.  */
++		if (!ioctl(dfd, LOOP_SET_FD, ffd)) {
++			if (!ioctl(dfd, BB_LOOP_SET_STATUS, &loopinfo))
++				rc = 0;
++			else
++				ioctl(dfd, LOOP_CLR_FD, 0);
++		}
++    } 
++	else
++	   return -errno;
++
++	close(dfd);
++	close(ffd);
++
++	return rc;
++}
++static int set_ip_using(int skfd, const char *interface, int c, unsigned long ip)
++{
++    struct ifreq ifr;
++    struct sockaddr_in sin;
++
++    strlcpy(ifr.ifr_name, interface, IFNAMSIZ);
++    memset(&sin, 0, sizeof(struct sockaddr));
++    sin.sin_family = AF_INET;
++    sin.sin_addr.s_addr = ip;
++    memcpy(&ifr.ifr_addr, &sin, sizeof(struct sockaddr));
++    if (ioctl(skfd, c, &ifr) < 0)
++	return -1;
++    return 0;
++}
+ static int __ifupdown(const char *interface, int up)
+ {
+     struct ifreq ifr;
+@@ -123,6 +188,43 @@ done:
+     return ret;
+ }
+ 
++static int __ifupdown2(const char *interface, const char *ip,const char *nm,int up)
++{
++    struct ifreq ifr;
++    int s, ret;
++
++    strlcpy(ifr.ifr_name, interface, IFNAMSIZ);
++
++    s = socket(AF_INET, SOCK_DGRAM, 0);
++    if (s < 0)
++        return -1;
++
++    ret = ioctl(s, SIOCGIFFLAGS, &ifr);
++    if (ret < 0) {
++        goto done;
++    }
++
++    if (up)
++	ifr.ifr_flags |= IFF_UP;
++    else
++        ifr.ifr_flags &= ~IFF_UP;
++
++    ret = ioctl(s, SIOCSIFFLAGS, &ifr);
++    
++    //test
++    /*if (set_ip_using(s, interface, SIOCSIFADDR, inet_addr(ip)) == -1)
++     return -1;
++    if (set_ip_using(s, interface, SIOCSIFNETMASK, inet_addr(nm)) == -1)
++     return -1;
++    if (set_ip_using(s, interface, SIOCSIFBRDADDR, bc) == -1)
++      return -1;
++    */
++    //test
++done:
++    close(s);
++    return ret;
++}
++
+ static void service_start_if_not_disabled(struct service *svc)
+ {
+     if (!(svc->flags & SVC_DISABLED)) {
+@@ -169,7 +271,10 @@ int do_hostname(int nargs, char **args)
+ 
+ int do_ifup(int nargs, char **args)
+ {
+-    return __ifupdown(args[1], 1);
++    if(!strcmp(args[1],"lo"))
++    return __ifupdown(args[1],1);
++	else
++    return __ifupdown2(args[1], args[2],args[3],1);
+ }
+ 
+ 
+@@ -413,6 +518,18 @@ int do_loglevel(int nargs, char **args) 
+     }
+     return -1;
+ }
++/*losetup loopname filename*/
++int do_losetup(int nargs, char **args) {
++
++	/* max 2 args,  no option*/
++    if (nargs != 3)
++        return -1;
++
++	if (setloop(args[1], args[2], 0) < 0)
++		return -2;
++
++	return 0;
++}
+ 
+ int do_device(int nargs, char **args) {
+     int len;
+diff -uprBN /opt/new/newdownload/system/core/init/parser.c initv1.5/parser.c
+--- /opt/new/newdownload/system/core/init/parser.c	2009-06-15 17:32:15.000000000 -0400
++++ initv1.5/parser.c	2009-07-06 23:43:23.000000000 -0400
+@@ -163,6 +163,7 @@ int lookup_keyword(const char *s)
+         break;
+     case 'l':
+         if (!strcmp(s, "oglevel")) return K_loglevel;
++		if (!strcmp(s, "osetup")) return K_losetup;
+         break;
+     case 'm':
+         if (!strcmp(s, "kdir")) return K_mkdir;
