@@ -15,14 +15,18 @@ please follow us: http://twitter.com/liveandroid
 
   * support more net cards
 
+  * higher graphics resolutions
+
   * easy netconfig
 
   * wifi (akl5k, tl9k)
 
   * change HOME/MENU key on Mac
 
-  * support marketplace
+  * a way to add files to the system
+
+  * support marketplace (?)
 
   * integrate debian with android (?)
 
-  * a hd-install version (?)
+  * a simple hd-install version (?)
