@@ -95,3 +95,12 @@ Failed to create a bootable @liveandroid USB-Stick. Tried with different Tools i
 @liveandroid
 
 we are fixing it now...
+
+-----
+@Androidguide
+
+If you won't get any further than the splashscreen, try increasing the Base Memory (e.g. to 200MB) and Video Memory (e.g. to 64MB). For most users, this works.
+
+@liveandroid
+
+thanks!
