@@ -104,3 +104,12 @@ If you won't get any further than the splashscreen, try increasing the Base Memo
 @liveandroid
 
 thanks!
+
+-----
+@recluze
+
+I can't find the shortcut key to "Menu".
+
+@cgarvey
+
+The menu key is the Menu key on a Windows keyboard. It's the key (that usually is a logo of a drop down menu) to the right of the Windows key (with the Windows flag) to the right of the spacebar.
