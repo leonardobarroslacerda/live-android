@@ -116,3 +116,13 @@ I can't find the shortcut key to "Menu".
 @cgarvey
 
 The menu key is the Menu key on a Windows keyboard. It's the key (that usually is a logo of a drop down menu) to the right of the Windows key (with the Windows flag) to the right of the spacebar.
+
+
+-----
+@Milan.Svoboda.G
+
+Is it faster than simulator from SDK? Can I use live android to test and debug my application instead of using the simulator from SDK?
+
+@liveandroid
+
+sure. but liveandroid cannot replace SDK for debug purpose. if you want debug your apps, please install SDK.
