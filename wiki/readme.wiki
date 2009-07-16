@@ -43,7 +43,7 @@ See some photos here: http://twitpic.com/photos/liveandroid
 
 Download liveandroidv0.2.iso.001 and liveandroidv0.2.iso.002 from http://code.google.com/p/live-android/downloads/list 
 
-windows: use HJSplit (http://www.freebyte.com/hjsplit/ or http://www.freebytesoftware.com/download/hjsplit.zip) to join it. 
+windows: use HJSplit (http://www.freebyte.com/hjsplit/ or http://www.freebytesoftware.com/download/hjsplit.zip) to join it. also use command COPY /B liveandroidv0.2.iso.001 +liveandroidv0.2.iso.002 liveandroidv0.2.iso 
 
 linux: cat liveandroidv0.2.iso.001 liveandroidv0.2.iso.002 > liveandroidv0.2.iso
 
@@ -72,7 +72,7 @@ Good Luck!
 
 When liveandroid booting up, you can use alt+F1 or alt+F7 to switch GUI and console, we added busybox to liveandroid, you can do everything in console. see howtouse http://code.google.com/p/live-android/wiki/howtouse for more instructions.
 
-In liveandroid v0.2, only a few of video card and net card driver added, so if you encounter freeze problem, please feedback to us, we are glad to fix it.
+In liveandroid v0.2, only a few of video card and net card driver added, so if you encounter freeze problem, please see FAQ http://code.google.com/p/live-android/wiki/faq for more details or feedback to us, we are glad to fix it.
 
 
 --------------
