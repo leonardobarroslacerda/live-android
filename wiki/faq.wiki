@@ -40,6 +40,9 @@ I can't find the shortcut key to "Menu". Whenever an application comes up, there
 
 Arrows(movement), Enter(confirm), Escape key(back), Alt + F1(console),Alt + F7(GUI) 
 
+<a href="http://twitpic.com/9uqjt" title="HOME key and MENU key on a 104 key keyboard on Twitpic"><img src="http://twitpic.com/show/thumb/9uqjt.png" width="150" height="150" alt="HOME key and MENU key on a 104 key keyboard on Twitpic"></a>
+
+
 ------
 @st.jingle
 
