@@ -126,3 +126,38 @@ Is it faster than simulator from SDK? Can I use live android to test and debug m
 @liveandroid
 
 sure. but liveandroid cannot replace SDK for debug purpose. if you want debug your apps, please install SDK.
+
+
+-----
+@lucast1533
+
+Using Parallels, it didn't work with "Other" as OS. Worked when I changed OS to "Linux" and "Other Linux"
+
+-----
+@longshowliu
+
+It's so greate, I just have a try ,but there is a problem ,how can I shut android down? just power off? Excuse a Noob.
+
+@liveandroid
+
+Alt+F1, /sbin/reboot -f now
+
+-----
+@Androidguide
+
+If you won't get any further than the splashscreen, try increasing the Base Memory (e.g. to 200MB) and Video Memory (e.g. to 64MB). For most users, this works.
+
+-----
+@CyKiller
+
+wifi works fine. If your using virtualization just use do NOT use the NAT settings and bridge your connection with the virtual settings. Hope it helps.
+
+-----
+@dodo99x
+
+Booted live 0.2 ISO perfectly under VirtualBox 3.0.0 r49315. Used OS Type: Other/Unknown, 512mb ram, vt-x enabled, 128mb video memory, 4.77gb HD, Network PCnet-Fast III(NAT). Mouse, and keys work, internet too.
+
+-----
+@lordsturm
+
+Remember the G1 Android has 192MB of RAM, so it's essential you give it at least that much.
