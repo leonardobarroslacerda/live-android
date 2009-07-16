@@ -43,19 +43,11 @@ http://androidzone.cz/images/stories/iso8.png
 
 
 
------ Thanks to @cbowley603 -------------------------------------------------------------
+-----
+@globalc
 
-http://forum.xda-developers.com/showthread.php?p=3967480
-running on asrpireone with ubuntu netbook remix in virtual box ose
+The 0.2 iso also runs virtualized with kvm, instructions here: http://fluxcoil.net/doku.php/snippets/kvm#running_android_1.5_on_kvm
 
+@waleed.harbi
 
-*Screenshot*
-
-http://forum.xda-developers.com/attachment.php?attachmentid=196289
-http://forum.xda-developers.com/attachment.php?attachmentid=196290
-http://forum.xda-developers.com/attachment.php?attachmentid=196291
-http://forum.xda-developers.com/attachment.php?attachmentid=196292
-http://forum.xda-developers.com/attachment.php?attachmentid=196293
-http://forum.xda-developers.com/attachment.php?attachmentid=196294
-http://forum.xda-developers.com/attachment.php?attachmentid=196295
-http://forum.xda-developers.com/attachment.php?attachmentid=196296
+Here the steps for Sun Virtual Box: http://www.walidlab.com/2009/07/android-sun-xvm-virtualbox.html
