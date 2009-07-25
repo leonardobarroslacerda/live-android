@@ -1,0 +1,29 @@
+#labels howto,installapps
+= Introduction =
+
+How to install apps in liveandroid
+
+
+= Details =
+
+Install apps:
+
+1. goto console: press ALT+F1
+
+2. change current path: cd /system/app
+
+3. download application: wget http://65.99.230.146/md/1835012/PilotLines.apk
+
+4. goto home: press ALT+F7, you'll see app now. :)
+
+
+http://web2.twitpic.com/img/19452748-c41284366436eaa2a238cc98fee8a920.4a6b346a-full.png
+
+http://web6.twitpic.com/img/19453033-6caf214761213cbbcedd72d10ae97f82.4a6b349b-scaled.png
+
+http://web6.twitpic.com/img/19453192-d7836fad79c52abca8ed5a8d022644d9.4a6b348b-scaled.png
+
+
+= thanks =
+
+wholegroup
