@@ -2,7 +2,7 @@
 
 = FAQ =
 
-last update: 2009-7-16
+last update: 2009-7-27
 
 
 ------
@@ -164,3 +164,17 @@ Booted live 0.2 ISO perfectly under VirtualBox 3.0.0 r49315. Used OS Type: Other
 @lordsturm
 
 Remember the G1 Android has 192MB of RAM, so it's essential you give it at least that much.
+
+-----
+@diakopter
+
+enable LiveAndroid 0.2 networking in VMWare Workstation 6.5:
+
+  * Boot the LiveAndroid VM
+  * Hit Alt-F1 to switch to the root console
+  * mkdir /data/misc/dhcp
+  * Stop the VM, and "Close" the VM in VMWare Workstation (or Exit VMWare Workstation)
+  * Edit your VM's .vmx file so the "ethernet0.virtualDev" line reads: ethernet0.virtualDev = "vlance"
+  * Open the .vmx file (launch the VM in VMWare)
+  * Set the VM to have at least 384MB RAM
+  * Start the VM; you're networked
