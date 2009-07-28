@@ -28,13 +28,13 @@ thanks mirror:
 
 *liveandroid v0.2*
 
-===LiveCD===
+===[ LiveCD ]===
 
 1. Download liveandroidv0.2.iso.001/liveandroidv0.2.iso.002
 
-on windows, use HJSplit(http://www.freebyte.com/hjsplit/ or http://www.freebytesoftware.com/download/hjsplit.zip) to join it.
+  * windows, use HJSplit(http://www.freebyte.com/hjsplit/ or http://www.freebytesoftware.com/download/hjsplit.zip) to join it. also use command COPY /B liveandroidv0.2.iso.001 + liveandroidv0.2.iso.002 liveandroidv0.2.iso 
 
-on linux, cat liveandroidv0.2.iso.001 liveandroidv0.2.iso.002 > liveandroidv0.2.iso
+  * linux, cat liveandroidv0.2.iso.001 liveandroidv0.2.iso.002 > liveandroidv0.2.iso
 
 2. Check md5sum via http://www.pc-tools.net/win32/md5sums/ or http://www.pc-tools.net/files/win32/freeware/md5sums-1.2.zip
 
@@ -44,11 +44,11 @@ on linux, cat liveandroidv0.2.iso.001 liveandroidv0.2.iso.002 > liveandroidv0.2.
 
 4. boot and enjoy!
 
-===LiveUSB===
+===[ LiveUSB ]===
 
 1. Download liveandroidv0.2usb.iso.001/liveandroidv0.2usb.iso.002
 
-  * windows, use HJSplit(http://www.freebyte.com/hjsplit/ or http://www.freebytesoftware.com/download/hjsplit.zip) to join it.
+  * windows, use HJSplit(http://www.freebyte.com/hjsplit/ or http://www.freebytesoftware.com/download/hjsplit.zip) to join it. also use command COPY /B liveandroidv0.2usb.iso.001 + liveandroidv0.2usb.iso.002 liveandroidv0.2usb.iso 
 
   * linux, cat liveandroidv0.2usb.iso.001 liveandroidv0.2usb.iso.002 > liveandroidv0.2usb.iso
 
