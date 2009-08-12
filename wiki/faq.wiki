@@ -2,7 +2,7 @@
 
 = FAQ =
 
-last update: 2009-7-27
+last update: 2009-8-12
 
 
 ------
@@ -178,3 +178,13 @@ enable LiveAndroid 0.2 networking in VMWare Workstation 6.5:
   * Open the .vmx file (launch the VM in VMWare)
   * Set the VM to have at least 384MB RAM
   * Start the VM; you're networked
+
+-----
+@jonnymayne
+
+using a xen virtual machine? My networking section in the config file reads: vif = 'type=ioemu, bridge=eth0, model=pcnet' eth0 appears under ifconfig after that.
+
+-----
+@nathan.s...@gmail.com
+
+If it hangs for you, see this bug: http://code.google.com/p/live-android/issues/detail?id=25
