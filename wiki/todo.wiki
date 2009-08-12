@@ -30,3 +30,5 @@ please follow us: http://twitter.com/liveandroid
   * integrate debian with android (?)
 
   * a simple hd-install version (?)
+
+  * open source code
