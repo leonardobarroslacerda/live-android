@@ -7,11 +7,11 @@ please follow us: http://twitter.com/liveandroid
 
 ===v0.3===
 
-  * liveUSB
+  * liveUSB [OK]
 
-  * SD card
+  * SD card [OK]
 
-  * Audio
+  * Audio [OK]
 
   * support more net cards
 
