@@ -6,6 +6,11 @@ How to install apps in liveandroid
 
 = Details =
 
+Browse apps:
+
+http://www.cyrket.com/
+
+
 Install apps:
 
 1. goto console: press ALT+F1
