@@ -7,11 +7,11 @@ please follow us: http://twitter.com/liveandroid
 
 ===v0.3===
 
-  * liveUSB [OK]
+  * liveUSB (OK)
 
-  * SD card [OK]
+  * SD card (OK)
 
-  * Audio [OK]
+  * Audio (OK)
 
   * support more net cards
 
@@ -25,7 +25,7 @@ please follow us: http://twitter.com/liveandroid
 
   * a way to add files to the system
 
-  * support marketplace (?)
+  * support marketplace (OK)
 
   * integrate debian with android (?)
 
