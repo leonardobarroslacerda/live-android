@@ -1,25 +1,23 @@
 #labels howto,installapps
 = Introduction =
 
-How to install apps in liveandroid
+How to install apps in LiveAndroid
 
 
 = Details =
 
-Browse apps:
+
+== Browse apps: ==
 
 http://www.cyrket.com/
 
 
-Install apps:
+== Install apps: ==
 
-1. goto console: press ALT+F1
-
-2. change current path: cd /system/app
-
-3. download application: wget http://65.99.230.146/md/1835012/PilotLines.apk
-
-4. goto home: press ALT+F7, you'll see app now. :)
+  # goto console: press ALT+F1
+  # change current path: cd /system/app
+  # download application: wget http://65.99.230.146/md/1835012/PilotLines.apk
+  # goto home: press ALT+F7, you'll see app now. :)
 
 
 http://web2.twitpic.com/img/19452748-c41284366436eaa2a238cc98fee8a920.4a6b346a-full.png
@@ -31,15 +29,21 @@ http://web6.twitpic.com/img/19453192-d7836fad79c52abca8ed5a8d022644d9.4a6b348b-s
 http://web8.twitpic.com/img/23739013-f037100618f95b6e0266966d1fa8355f.4a883cdf-scaled.jpg
 
 
-Use AndAppStore Client:
+== Use AndAppStore Client: ==
 
-1. download http://andappstore.com/AndroidApplications/apps/125845!download
+  # download http://andappstore.com/AndroidApplications/apps/125845!download
+  # install app into liveandroid
+  # you can see app http://twitpic.com/e4t27
+  # click http://twitpic.com/e4t51  http://twitpic.com/e4t9p
 
-2. install app into liveandroid
 
-3. you can see app http://twitpic.com/e4t27
+== LiveAndroid v0.3 ==
 
-4. click http://twitpic.com/e4t51  http://twitpic.com/e4t9p
+  # you can download APK file directly from Browser
+  # the APK file save at /sdcard/download
+  # press ALT+F1
+  # cp /sdcard/download/* /system/app
+  # press ALT+F7, you'll see app now. :)
 
 
 
