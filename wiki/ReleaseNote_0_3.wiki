@@ -38,6 +38,7 @@ LiveAndroid v0.3 is here
 = Download =
 
   * LiveCD iso: liveandroidv0.3.iso
+  * md5sum  e0c5c305f78cd958dbaea3716c82296f
 
 = Contact us =
 
