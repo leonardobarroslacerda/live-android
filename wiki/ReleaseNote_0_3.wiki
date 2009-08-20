@@ -49,7 +49,9 @@ LiveAndroid v0.3 is here
 
 = Contact us =
 
-  * twitter.com/liveandroid
+  * http://twitter.com/liveandroid
+  * liveandroid@gmail.com
+  * Facebook: http://www.facebook.com/pages/LiveAndroid/226589575163 
 
 
 = Android egg hunt =
