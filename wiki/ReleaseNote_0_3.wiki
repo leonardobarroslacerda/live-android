@@ -50,6 +50,15 @@ LiveAndroid v0.3 is here
   * size 173M
   * check liveandroidv0.3.iso md5sum  e0c5c305f78cd958dbaea3716c82296f
 
+= User Guide =
+
+  * Readmefirst: http://code.google.com/p/live-android/wiki/readme
+  * Pics: http://twitpic.com/photos/liveandroid http://code.google.com/p/live-android/wiki/WhatUserSaid
+  * How to use: http://code.google.com/p/live-android/wiki/howtouse
+  * How to install apps: http://code.google.com/p/live-android/wiki/howtoinstallapps
+  * FAQ: http://code.google.com/p/live-android/wiki/faq
+  * Internet connection: http://code.google.com/p/live-android/wiki/networkhowto 
+
 = Contact us =
 
   * http://twitter.com/liveandroid
