@@ -15,8 +15,8 @@ http://www.cyrket.com/
 == Install apps: ==
 
   # goto console: press ALT+F1
-  # change current path: cd /system/app
-  # download application: wget http://65.99.230.146/md/1835012/PilotLines.apk
+  # change current path: `cd /system/app`
+  # download application: `wget http://65.99.230.146/md/1835012/PilotLines.apk`
   # goto home: press ALT+F7, you'll see app now. :)
 
 
@@ -42,7 +42,7 @@ http://web8.twitpic.com/img/23739013-f037100618f95b6e0266966d1fa8355f.4a883cdf-s
   # you can download APK file directly from Browser
   # the APK file save at /sdcard/download
   # press ALT+F1
-  # {{{ cp /sdcard/download/* /system/app }}}
+  # `cp /sdcard/download/* /system/app`
   # press ALT+F7, you'll see app now. :)
 
 
