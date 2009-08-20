@@ -41,7 +41,7 @@ LiveAndroid v0.3 is here
 
   * LiveCD
     * download
-      * liveandroidv0.3.iso.001 / liveandroidv0.3.iso.002 at http://code.google.com/p/live-android/downloads/list
+      * [http://mnstat.com/images/download.png] liveandroidv0.3.iso.001 / liveandroidv0.3.iso.002 at http://code.google.com/p/live-android/downloads/list
       * torrent at http://www.mininova.org/get/2870386
     * join
       * windows, use HJSplit(http://www.freebyte.com/hjsplit/ or http://www.freebytesoftware.com/download/hjsplit.zip) to join it. also use command `COPY /B liveandroidv0.3.iso.001 + liveandroidv0.3.iso.002 liveandroidv0.3.iso`
