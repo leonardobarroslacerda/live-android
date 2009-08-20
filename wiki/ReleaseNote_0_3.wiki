@@ -9,7 +9,9 @@ LiveAndroid v0.3 is here
 = Features =
 
   * OpenDNS added
-  * Audio support (virtualbox - Intel 8x0 AC97, VMware - Ensoniq AudioPCI 1371/1373)
+  * Audio support
+    * virtualbox - Intel 8x0 AC97
+    * VMware - Ensoniq AudioPCI 1371/1373)
   * SD card support (512M)
   * Ethernet (DHCP)
   * Mouse wheel support
