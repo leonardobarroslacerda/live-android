@@ -32,12 +32,15 @@ LiveAndroid v0.3 is here
 = Tested platforms =
 
   * Virtual Machine
-  * tell us :)
+    * VirtualBox
+    * VMware
+  * please help us :)
 
 
 = Download =
 
   * LiveCD iso: liveandroidv0.3.iso
+  * size 173M
   * md5sum  e0c5c305f78cd958dbaea3716c82296f
 
 = Contact us =
