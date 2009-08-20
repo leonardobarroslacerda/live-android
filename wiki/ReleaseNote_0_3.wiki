@@ -10,14 +10,23 @@ LiveAndroid v0.3 is here
 
   * OpenDNS added
   * Audio support
-    * virtualbox - Intel 8x0 AC97
-    * VMware - Ensoniq AudioPCI 1371/1373)
+    * VirtualBox - Intel 8x0 AC97
+    * VMware - Ensoniq AudioPCI 1371/1373
   * SD card support (512M)
   * Ethernet (DHCP)
   * Mouse wheel support
   * High-resolution support (800*600, 1024*768)
-  * Apps added (PilotLines, Software Directory, Craigs Races, AndroidVNC, Super Mario)
-  * more net card driver added (Amd PCNET32 PCI, Broadcom 440x/47xx, CS89x0, Intel PRO/100+, NE2000/NE1000, Realtek RTL-8129/8130/8139)
+  * Apps added
+    * Software Directory
+    * AndroidVNC
+    * PilotLines, Craigs Races, Super Mario
+  * more net card driver added
+    * Amd PCNET32 PCI
+    * Broadcom 440x/47xx
+    * CS89x0
+    * Intel PRO/100+
+    * NE2000/NE1000
+    * Realtek RTL-8129/8130/8139
 
 
 = Tested platforms =
