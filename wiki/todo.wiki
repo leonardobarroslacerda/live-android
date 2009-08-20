@@ -13,9 +13,9 @@ please follow us: http://twitter.com/liveandroid
 
   * Audio (OK)
 
-  * support more net cards
+  * support more net cards (OK)
 
-  * higher graphics resolutions
+  * higher graphics resolutions (OK, 1024*768)
 
   * easy netconfig
 
@@ -23,12 +23,12 @@ please follow us: http://twitter.com/liveandroid
 
   * change HOME/MENU key on Mac
 
-  * a way to add files to the system
+  * a way to add files to the system (Soft Directory)
 
   * support marketplace (OK)
 
-  * integrate debian with android (?)
+  * integrate debian with android (No)
 
-  * a simple hd-install version (?)
+  * a simple hd-install version (No)
 
-  * open source code
+  * open source code (?)
