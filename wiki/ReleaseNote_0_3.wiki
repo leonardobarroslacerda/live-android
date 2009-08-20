@@ -45,7 +45,7 @@ LiveAndroid v0.3 is here
       * windows, use HJSplit(http://www.freebyte.com/hjsplit/ or http://www.freebytesoftware.com/download/hjsplit.zip) to join it. also use command `COPY /B liveandroidv0.3.iso.001 + liveandroidv0.3.iso.002 liveandroidv0.3.iso`
       * linux, `cat liveandroidv0.3.iso.001 liveandroidv0.3.iso.002 > liveandroidv0.3.iso`
   * size 173M
-  * md5sum  e0c5c305f78cd958dbaea3716c82296f
+  * check liveandroidv0.3.iso md5sum  e0c5c305f78cd958dbaea3716c82296f
 
 = Contact us =
 
