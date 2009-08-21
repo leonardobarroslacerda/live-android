@@ -43,6 +43,7 @@ http://web8.twitpic.com/img/23739013-f037100618f95b6e0266966d1fa8355f.4a883cdf-s
   # the APK file save at /sdcard/download
   # press ALT+F1
   # `cp /sdcard/download/* /system/app`
+  # `chown 1000.1000 /system/app/*`
   # press ALT+F7, you'll see app now. :)
 
 
